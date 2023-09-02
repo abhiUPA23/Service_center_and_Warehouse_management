@@ -1,0 +1,100 @@
+
+
+
+/* Navbar container */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    /* padding: 9px 5px; */
+    gap: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Logo */
+.navbar-logo img {
+    max-width: 50px;
+    height: auto;
+    padding: 0;
+    /* zoom:2.5; */
+}
+
+/* Search box and button */
+.navbar-search input[type="text"] {
+    padding: 5px 25px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 470px;
+    height: 35px;
+    
+}
+
+.navbar-search button {
+    background-color: black;
+    border: none;
+    color: #2874f0;
+    padding: 3px 10px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 3px;
+    width: 110px;
+    font-size:medium;
+    font-weight: bold;
+}
+
+/* Menu items */
+.navbar-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    display: flex;
+    
+}
+
+.navbar-menu li {
+    margin-right: 20px;
+    display: flex;
+    border-bottom: 4px solid white;
+    padding: 0px;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: black;
+
+    /* font-weight: bold; */
+}
+
+/* .navbar a:hover{
+    color: #2874f0;
+    zoom:0;
+} */
+.navbar-menu li:hover{
+    border-bottom-style: solid-2px-blue;
+    border-bottom-width: 4px;
+    border-bottom-color:rgb(255, 157, 0);
+   
+}
+/* .navbar-menu a:hover {
+    color: #f39c12;
+} */
+
+
+
+.home-cont1 img{
+    width:100%;
+    height: 400px;
+}

@@ -1,0 +1,10 @@
+.menu-container{
+  width: 100%;
+  border:2px solid black;
+  padding: 52px 0px;
+  height: 100vh;
+}
+.list-group li, .list-group  a  {
+text-decoration: none;
+font-weight: bold;
+}

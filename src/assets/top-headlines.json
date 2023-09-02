@@ -1,0 +1,212 @@
+{
+  "status": "ok",
+  "totalResults": 69,
+  "articles": [
+    {
+      "source": { "id": null, "name": "Fox Business" },
+      "author": "Anders Hagstrom",
+      "title": "Elon Musk mocks users who want to keep the ‘block’ feature: ‘How does the medicine taste’ - Fox Business",
+      "description": "X owner Elon Musk mocked users who were complaining that the \"block\" feature will soon be removed, saying he had blocked them for the time being.",
+      "url": "https://www.foxbusiness.com/media/elon-musk-mocks-users-who-want-keep-block-feature-how-does-medicine-taste",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/07/0/0/f3d5afca-Elon-Musk.jpg?ve=1&tl=1",
+      "publishedAt": "2023-08-20T17:11:26Z",
+      "content": "Elon Musk mocked users on X, the platform previously known as Twitter, for complaining about plans to remove the \"block\" feature from the platform. \r\nMusk posted about the issue Sunday morning, admit… [+3059 chars]"
+    },
+    {
+      "source": { "id": null, "name": "YouTube" },
+      "author": null,
+      "title": "Dr. Scott Gottlieb says he's \"pretty concerned\" about new COVID variant - Face the Nation",
+      "description": null,
+      "url": "https://www.youtube.com/watch?v=H4MysjqSvfk",
+      "urlToImage": null,
+      "publishedAt": "2023-08-20T16:25:39Z",
+      "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
+    },
+    {
+      "source": { "id": null, "name": "MarketWatch" },
+      "author": "Christine Idzelis",
+      "title": "Rising yields put S&P 500 on pace for biggest monthly loss of 2023 as investors brace for Fed Chair Powell's Jackson Hole speech - MarketWatch",
+      "description": "Jump in Treasury yields rattled stocks while a China slowdown hangs over markets",
+      "url": "https://www.marketwatch.com/story/rising-yields-put-s-p-500-on-pace-for-biggest-monthly-loss-of-2023-as-investors-brace-for-fed-chair-powells-jackson-hole-speech-f620b5a2",
+      "urlToImage": "https://images.mktw.net/im-838161/social",
+      "publishedAt": "2023-08-20T16:01:00Z",
+      "content": "The S&amp;P 500 index is on course for its biggest monthly loss of 2023, jolted by rising Treasury yields as investors face the prospect of the Federal Reserve keeping interest rates higher for longe… [+6269 chars]"
+    },
+    {
+      "source": { "id": null, "name": "New York Post" },
+      "author": "Ryan King",
+      "title": "MMA champs offer to train Elon Musk for cage match -- because they hate Mark Zuckerberg - New York Post ",
+      "description": "“No one likes Zuckerberg because he’s a communist that’s suppressing our speech, and ruining most of our businesses,” Robichaux told The Post. “We feel like he needs his a– beat.”…",
+      "url": "https://nypost.com/2023/08/20/mma-champs-offer-to-train-elon-musk-for-cage-match-with-zuckerberg/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/08/newspress-collage-q0cjw5ksz-1692546638844.jpg?quality=75&strip=all&1692532327&w=1024",
+      "publishedAt": "2023-08-20T15:52:00Z",
+      "content": "A who’s-who of MMA fighters have a beef with Mark Zuckerberg — so they’re throwing their weight behind Elon Musk ahead of a possible cage match between the tech titans. \r\nAt least eight UFC fighters,… [+9739 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Paul Berger",
+      "title": "Bankrupt Yellow Draws New $1.5 Billion Bid for Truck Terminals - The Wall Street Journal",
+      "description": "Old Dominion Freight Line’s proposal outbids rival Estes Express, stepping up the competition for a network of 169 terminals",
+      "url": "https://www.wsj.com/articles/bankrupt-yellow-draws-new-1-5-billion-bid-for-truck-terminals-3ac3aeae",
+      "urlToImage": "https://images.wsj.net/im-838859/social",
+      "publishedAt": "2023-08-20T14:36:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Yahoo Entertainment" },
+      "author": "Josh Schafer",
+      "title": "Nvidia reports earnings, Fed gathers in Jackson Hole: What to know this week - Yahoo Finance",
+      "description": "Fed Chair Jerome Powell's speech and Nvidia's quarterly update are coming in the week ahead.",
+      "url": "https://finance.yahoo.com/news/nvidia-reports-earnings-fed-gathers-in-jackson-hole-what-to-know-this-week-143050927.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/UmaKhw4Q5qbEUzPuv2Ub0A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/f1ab8680-2faa-11ee-afad-21d3ecd22166",
+      "publishedAt": "2023-08-20T14:30:50Z",
+      "content": "The final full week of August will bring investors two key events earnings from Nvidia (NVDA) and the Federal Reserve's annual confab in Jackson Hole.\r\nThe Jackson Hole Economic Symposium will kick o… [+6363 chars]"
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Reuters",
+      "title": "Germany wants tighter foreign investment controls amid China 'de-risking' - Reuters",
+      "description": "German Economy Minister Robert Habeck wants to tighten the process for reviewing foreign investments with a new law that would aim to enhance economic security, according to a ministry document seen by Reuters on Sunday.",
+      "url": "https://www.reuters.com/markets/europe/germany-wants-tighter-foreign-investment-controls-amid-china-de-risking-2023-08-20/",
+      "urlToImage": "https://www.reuters.com/resizer/oNZj9MVnwzOrE8VbZkXhrGUrzGs=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PB5M6F47TVN4DMMQRKK37HTFZY.jpg",
+      "publishedAt": "2023-08-20T14:26:00Z",
+      "content": "BERLIN, Aug 20 (Reuters) - German Economy Minister Robert Habeck wants to tighten the process for reviewing foreign investments with a new law that would aim to enhance economic security, according t… [+1578 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Viewfromthewing.com" },
+      "author": "Gary Leff",
+      "title": "Airline To Passenger, “I Guess We Just Don’t Have Room For You\" Try Again In Two Days [Roundup] - View from the Wing",
+      "description": "A roundup of the most important stories of the day. I keep you up to date on the most interesting writings I find on other sites – the latest news and tips.",
+      "url": "https://viewfromthewing.com/airline-to-passenger-i-guess-we-just-dont-have-room-for-you-try-again-in-two-days-roundup/",
+      "urlToImage": "https://viewfromthewing.com/wp-content/uploads/2023/08/Screenshot-2023-08-18-044821.png",
+      "publishedAt": "2023-08-20T14:04:43Z",
+      "content": "Several years ago, my husband and I came home from the UK at IAD – non-peak travel day, non-peak travel time, with nothing to declare (and the world was fairly geopolitically stable at that point, to… [+1040 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Benzinga" },
+      "author": "Murtuza Merchant",
+      "title": "Shiba Inu, Dogecoin And Floki Set To Eclipse Bitcoin's Legacy After Market Chaos, Says Analytics Firm - Benzinga",
+      "description": "In the wake of last week's significant market downturn, the cryptocurrency landscape has been a topic of intense debate and speculation, with market caps across the board witnessing substantial declines, leading to polarized opinions among traders and investo",
+      "url": "https://www.benzinga.com/markets/cryptocurrency/23/08/33949976/shiba-inu-dogecoin-and-floki-set-to-eclipse-bitcoins-legacy-after-market-chaos-says-analyt",
+      "urlToImage": "https://cdn.benzinga.com/files/images/story/2023/08/20/shiba_inu.jpg?width=1200&height=800&fit=crop",
+      "publishedAt": "2023-08-20T13:32:30Z",
+      "content": "In the wake of last week's significant market downturn, the cryptocurrency landscape has been a topic of intense debate and speculation, with market caps across the board witnessing substantial decli… [+2554 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Post Magazine" },
+      "author": null,
+      "title": "Chinese regulators pledge further steps to tackle debt and property risks - South China Morning Post",
+      "description": "Property is one of the biggest risks facing the economy with the country’s largest private developer Country Garden adding to the sector’s woes.",
+      "url": "https://www.scmp.com/economy/china-economy/article/3231716/chinese-financial-regulators-pledge-further-measures-tackle-local-government-debt-and-property",
+      "urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2023/08/20/62937e5d-6f74-40eb-b55f-56d13001715e_d80f46ae.jpg?itok=6W7is8qK&v=1692537346",
+      "publishedAt": "2023-08-20T13:21:21Z",
+      "content": "Published: 9:21pm, 20 Aug, 2023\r\nUpdated: 9:21pm, 20 Aug, 2023"
+    },
+    {
+      "source": { "id": null, "name": "Post Magazine" },
+      "author": null,
+      "title": "China pledges to boost robot use in manufacturing - South China Morning Post",
+      "description": "The government believes the robotics industry is on the cusp of a ‘revolutionary leap’ that could help fuel the country’s development.",
+      "url": "https://www.scmp.com/news/china/politics/article/3231715/china-eyes-robot-manufacturing-way-fuel-economic-growth",
+      "urlToImage": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2023/08/20/bcb4c71f-815e-4fac-be0f-0b4e523fdd65_02fca2c4.jpg?itok=U_-lMq6H&v=1692536469",
+      "publishedAt": "2023-08-20T13:01:10Z",
+      "content": "Published: 9:01pm, 20 Aug, 2023\r\nUpdated: 9:01pm, 20 Aug, 2023"
+    },
+    {
+      "source": { "id": "business-insider", "name": "Business Insider" },
+      "author": "Christopher Woody",
+      "title": "US Air Force looks into blended wing body design for biggest planes - Business Insider",
+      "description": "The US Air Force is looking for planes that can carry more cargo over longer distances while using less fuel and operating at a wider range of bases.",
+      "url": "https://www.businessinsider.com/us-air-force-blended-wing-body-design-tankers-cargo-planes-2023-8",
+      "urlToImage": "https://i.insider.com/64de7ba2bd98a6001978772d?width=1200&format=jpeg",
+      "publishedAt": "2023-08-20T13:00:00Z",
+      "content": "The US Air Force has picked aviation startup firm JetZero to develop a full-size demonstrator aircraft with an unusual design that could transform how the service builds its tanker and cargo aircraft… [+6897 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Anna Bahney",
+      "title": "What mortgage rates over 7% mean for the housing market - CNN",
+      "description": "An already miserably unaffordable housing market is getting more expensive.",
+      "url": "https://www.cnn.com/2023/08/20/homes/mortgage-rates-housing-affordability/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230818131914-01-single-family-home-062123.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-08-20T12:14:00Z",
+      "content": "An already miserably unaffordable housing market is getting more expensive. \r\nAs mortgage rates top 7% the highest theyve been in 21 years according to Freddie Mac home buyers face ballooning costs. … [+5449 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Brian Evans",
+      "title": "Here's the trade on Nvidia ahead of earnings, according to analysts - CNBC",
+      "description": "Ahead of earnings Wednesday, analysts are weighing in on the forthcoming report and how to trade the earnings.",
+      "url": "https://www.cnbc.com/2023/08/20/heres-the-trade-on-nvidia-ahead-of-earnings-according-to-analysts.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/105398954-1534357352806rts1xdsi.jpg?v=1692533518&w=1920&h=1080",
+      "publishedAt": "2023-08-20T12:11:58Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Gregory Zuckerman",
+      "title": "For This Venture Capitalist, Research on Aging Is Personal; 'Bob Has a Big Fear of Death' - The Wall Street Journal",
+      "description": "Robert Nelsen has invested hundreds of millions in Altos Labs, a biotech company working on ways to  rejuvenate cells and eliminate disease",
+      "url": "https://www.wsj.com/health/wellness/for-this-venture-capitalist-research-on-aging-is-personal-bob-has-a-big-fear-of-death-519a091",
+      "urlToImage": "https://images.wsj.net/im-836138/social",
+      "publishedAt": "2023-08-20T12:04:00Z",
+      "content": null
+    },
+    {
+      "source": { "id": null, "name": "Forbes" },
+      "author": "Billy Bambrough",
+      "title": "Crypto Now Braced For A $15.5 Trillion September Wall Street Earthquake After Shock Bitcoin, Ethereum, XRP And Crypto Price Crash - Forbes",
+      "description": "The bitcoin and crypto market is braced for a flurry of SEC spot bitcoin ETF decisions, led by the world's largest asset manager BlackRock...",
+      "url": "https://www.forbes.com/sites/digital-assets/2023/08/20/crypto-now-braced-for-a-155-trillion-september-wall-street-earthquake-after-shock-bitcoin-ethereum-xrp-and-crypto-price-crash/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6456424532c7f204c1e31892/0x0.jpg?format=jpg&width=1200",
+      "publishedAt": "2023-08-20T11:50:24Z",
+      "content": "Bitcoin and other major cryptocurrencies, including ethereum and XRPXRP\r\n, suffered a sudden price crash this week following a stark crypto warning.\r\nSubscribenow to Forbes' CryptoAsset &amp; Blockch… [+3686 chars]"
+    },
+    {
+      "source": { "id": "financial-times", "name": "Financial Times" },
+      "author": "Adam Samson",
+      "title": "Turkey backs away from foreign currency protected savings accounts - Financial Times",
+      "description": "Erdoğan continues retreat from unconventional economic policies that stoked inflation crisis",
+      "url": "https://www.ft.com/content/bf08b99b-3481-4023-a6c8-693d1bb98ea8",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F57524afc-101d-4e75-adc5-22db14a940cc.jpg?source=next-opengraph&fit=scale-down&width=900",
+      "publishedAt": "2023-08-20T11:44:36Z",
+      "content": "Turkey has taken the first steps towards unwinding a $125bn scheme that protects savers against falls in the lira, the latest sign that President Recep Tayyip Erdoan is backing away from the unconven… [+2618 chars]"
+    },
+    {
+      "source": { "id": null, "name": "WABC-TV" },
+      "author": null,
+      "title": "MTA fare hikes: Bus, subway fares increase in price; now $2.90 to ride - WABC-TV",
+      "description": "This is the first fare hike since 2019 and the first increase in the base subway and bus fare since 2015.",
+      "url": "https://abc7ny.com/mta-fare-hike-subway-congestion-pricing-bus/13675377/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/13675438_082023-wabc-fare-hikes-img.jpg?w=1600",
+      "publishedAt": "2023-08-20T11:11:23Z",
+      "content": "NEW YORK CITY (WABC) -- If you plan on taking an MTA bus or subway in New York City anytime after Sunday, expect to pay a little bit more.\r\nSubway and bus fares have officially gone up from $2.75 to … [+2918 chars]"
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": null,
+      "title": "Putin Turns to Ruble and Ballot to Shore Up Shaken Authority - Bloomberg",
+      "description": "Russia’s central bank is racing to stabilize the ruble ahead of an election seen as key to restoring Putin’s authority after the Wagner mutiny.",
+      "url": "https://www.bloomberg.com/news/articles/2023-08-20/putin-turns-to-ruble-and-ballot-to-shore-up-shaken-authority",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iVLhC59KQT1s/v1/1200x800.jpg",
+      "publishedAt": "2023-08-20T11:01:50Z",
+      "content": "Sign up to receive the Balance of Power newsletter in your inbox, and follow Bloomberg Politics on Twitter and Facebook for more.\r\nThe ruble is slumping, the shock of a failed mutiny has yet to fade … [+73 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Designboom" },
+      "author": "kat barandy I designboom",
+      "title": "'digital house' demonstrates plug-in construction in german forest - Designboom",
+      "description": "",
+      "url": "https://www.designboom.com/architecture/digital-house-julian-kruger-benjamin-kemper-wismar-germany-08-20-2023/",
+      "urlToImage": "https://www.designboom.com/twitterimages/uploads/2023/08/digital-house-julian-kruger-benjamin-kemper-germany-designboom-FB.jpg",
+      "publishedAt": "2023-08-20T10:30:21Z",
+      "content": null
+    }
+  ]
+}
