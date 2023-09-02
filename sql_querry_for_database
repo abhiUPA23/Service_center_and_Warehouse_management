@@ -1,0 +1,175 @@
+
+
+USE railway;
+CREATE TABLE xiaomi_products (
+    product_model VARCHAR(150),
+    part_id INT ,
+    part_name VARCHAR(200),
+    price INT,
+    UNIQUE (product_model, part_id),
+    expected_time INT
+);
+
+INSERT INTO xiaomi_products (product_model,part_id, part_name, price,expected_time)
+VALUES
+    ('Redmi Note5',3245, 'Front Covelogin_credentialsr Display Module-Redmi Note5-White', 1799,2),
+    ('Redmi Note5',2346 ,'Front Cover Display Module-Redmi Note5-black', 1799,3),
+    ('Redmi Note5 Pro',1234, 'Mainboard Assy-Redmi Note5 Pro-IN-6+64G', 4299,1),
+    ('Redmi Note5 Pro',4562, 'Mainboard Assy-Redmi Note5 Pro-IN-4+64G', 3699,5),
+    ('Redmi Note5',6521 ,'Battery', 699,4 ),
+	('Redmi Note5 Pro',6521 ,'Battery', 699,4 ),
+	('Redmi Note6',6521 ,'Battery', 699,4 ),
+	('Mi 11Lite',6521 ,'Battery', 699,4),
+	('Mi 11Lite', 7321, 'Front Cover Display Module - All Colour', 4399,3),
+    ('Mi 11Lite', 1235, 'Main board components-Mi 11 Lite-India version-8GB+128GB', 11999,6),
+    ('Mi 11Lite', 4126, 'Main board components-Mi 11 Lite-India version-6GB+128GB', 10999,6),
+	('M11 TV 55Inch LED', 9999, 'Front Cover Display Module', 36999,1),
+    ('M11 TV 55Inch LED', 9216, 'Mainboard', 9999,2),
+	('Redmi 10 Power', 6521, 'Battery', 699,3),
+    ('Redmi 10 Power', 1573, 'Front Cover Display Module - Tarnish', 3299,4),
+    ('Redmi 10 Power', 3218, 'Mainboard Assy - 8+128G', 7999,2),
+	('XIAOMI ROBOT VACUUM MOP 2 PRO', 1111, 'Battery Box', 2399,3),
+    ('XIAOMI ROBOT VACUUM MOP 2 PRO', 2222, 'Motherboard', 3999,4),
+    ('POCO M2 Pro', 6521, 'Battery', 699,4),
+    ('POCO M2 Pro', 3333, 'Mainboard Assy - 6+128G', 7199,3),
+    ('POCO M2 Pro', 4444, 'Mainboard Assy - 6+64G', 6499,3),
+    ('POCO M2 Pro', 5555, 'Mainboard Assy - 4+64G', 5999,3),
+    ('POCO M2 Pro', 6666, 'Front Cover Display Module - All Colour', 3599,7);
+    
+    CREATE TABLE service_center_details (
+    service_center_id INT ,
+    part_name VARCHAR(200),
+    model_name VARCHAR(200),
+    part_id int,
+    quantity int,
+    location varchar(200),
+    UNIQUE (service_center_id, part_name, model_name)
+);
+CREATE TABLE service_center_to_warehouse (
+    service_center_id INT ,
+    Distance_east INT,
+    Distance_north INT,
+	Distance_south INT,   
+    Distance_west INT,
+    UNIQUE (service_center_id)
+);
+CREATE TABLE service_center_request (
+	request_id int,
+    service_center_id INT ,
+    location VARCHAR(200),
+    part_id int,
+    model_name varchar(200),
+    part_name varchar(200),
+    is_pending boolean,
+    customer_name varchar(150),
+    customer_email varchar(150),
+    remarks varchar(200),
+    priority int ,
+    UNIQUE (request_id)
+    
+);
+CREATE TABLE warehouse_requests (
+	request_id int,
+    warehouseSkUid int,
+    region varchar(200),
+    service_center_id INT ,
+    part_id int,
+    model_name varchar(200),
+    part_name varchar(200),
+    is_pending boolean,
+    priority int ,
+    quantity int,
+    UNIQUE (request_id)
+    
+);
+CREATE TABLE warehouse_details (
+    warehouse_id int,
+    region varchar(10),
+    part_id INT ,
+    part_name VARCHAR(200),
+    model_name VARCHAR(200),
+    quantity int,
+    UNIQUE (warehouse_id, part_name, model_name)
+);
+
+create table login_credentials (	
+	id int,
+	email varchar(50),
+    password varchar(50),
+    skUid int,
+    UNIQUE (email)
+    );
+
+
+INSERT INTO service_center_details (service_center_id, part_name, model_name, part_id, quantity, location)
+VALUES
+    (1, 'Front Cover Display Module-Redmi Note5-White', 'Redmi Note5', 1799, 2, 'Location 1'),
+    (2, 'Front Cover Display Module-Redmi Note5-black', 'Redmi Note5', 1799, 3, 'Location 1'),
+    (1, 'Mainboard Assy-Redmi Note5 Pro-IN-6+64G', 'Redmi Note5 Pro', 4299, 1, 'Location 2'),
+    (1, 'Mainboard Assy-Redmi Note5 Pro-IN-4+64G', 'Redmi Note5 Pro', 3699, 5, 'Location 2'),
+    (2, 'Battery', 'Redmi Note5', 699, 0, 'Location 3'),
+    (2, 'Battery', 'Redmi Note5 Pro', 699, 0, 'Location 3'),
+    (3, 'Battery', 'Redmi Note6', 699, 1, 'Location 3'),
+    (3, 'Battery', 'Mi 11Lite', 699, 2, 'Location 3'),
+    (3, 'Front Cover Display Module - All Colour', 'Mi 11Lite', 4399, 3, 'Location 4'),
+    (2, 'Main board components-Mi 11 Lite-India version-8GB+128GB', 'Mi 11Lite', 11999, 6, 'Location 4'),
+    (4, 'Main board components-Mi 11 Lite-India version-6GB+128GB', 'Mi 11Lite', 10999, 6, 'Location 4'),
+    (1, 'Front Cover Display Module', 'M11 TV 55Inch LED', 36999, 1, 'Location 5'),
+    (1, 'Mainboard', 'M11 TV 55Inch LED', 9999, 2, 'Location 5'),
+    (2, 'Battery', 'Redmi 10 Power', 699, 3, 'Location 6'),
+    (1, 'Front Cover Display Module - Tarnish', 'Redmi 10 Power', 3299, 4, 'Location 6'),
+    (2, 'Mainboard Assy - 8+128G', 'Redmi 10 Power', 7999, 2, 'Location 6'),
+    (3, 'Battery Box', 'XIAOMI ROBOT VACUUM MOP 2 PRO', 2399, 3, 'Location 7'),
+    (4, 'Motherboard', 'XIAOMI ROBOT VACUUM MOP 2 PRO', 3999, 4, 'Location 7'),
+    (4, 'Battery', 'POCO M2 Pro', 699, 4, 'Location 8'),
+    (5, 'Mainboard Assy - 6+128G', 'POCO M2 Pro', 7199, 3, 'Location 8'),
+    (5, 'Mainboard Assy - 6+64G', 'POCO M2 Pro', 6499, 3, 'Location 8'),
+    (5, 'Mainboard Assy - 4+64G', 'POCO M2 Pro', 5999, 3, 'Location 8'),
+    (5, 'Front Cover Display Module - All Colour', 'POCO M2 Pro', 3599, 7, 'Location 8');
+
+
+
+
+
+INSERT INTO service_center_to_warehouse (service_center_id, Distance_east, Distance_north, Distance_south, Distance_west)
+VALUES
+    (1, 800, 600, 300, 400),
+    (2, 400, 1200, 900, 800),
+    (3, 1200, 300, 600, 320),
+    (4, 1000, 200, 500, 720),
+    (5, 320, 400, 500, 400);
+
+
+
+
+
+
+
+
+INSERT INTO login_credentials (id, email, password, skUid)
+VALUES
+    (1, "1@example.com", "password", 1),
+    (2, "2@example.com", "password", 2),
+    (3, "3@example.com", "password",6),
+    (4, "4@example.com", "password", 4),
+    (5, "5@example.com", "password", 3),
+    (6, "6@example.com", "password", 5),
+    (7, "7@example.com", "password", 401),
+    (8, "8@example.com", "password", 101),	
+    (9, "9@example.com", "password", 201),
+    (10,"10@example.com","password", 301);
+
+
+INSERT INTO warehouse_details (warehouse_id, region, part_id, part_name, model_name, quantity)
+VALUES
+    (101, 'East', 1799, 'Front Cover Display Module', 'Redmi Note5', 50),
+    (101, 'East', 4299, 'Mainboard Assy', 'Redmi Note5 Pro', 20),
+    (101, 'East', 699, 'Battery', 'Redmi Note5', 100),
+    (201, 'North', 699, 'Battery', 'Mi 11Lite', 80),
+    (201, 'North', 4399, 'Front Cover Display Module', 'Mi 11Lite', 30),
+    (301, 'South', 9999, 'Mainboard', 'M11 TV 55Inch LED', 15),
+    (401, 'West', 3299, 'Front Cover Display Module', 'Redmi 10 Power', 40),
+    (101, 'East', 2399, 'Battery Box', 'XIAOMI ROBOT VACUUM MOP 2 PRO', 25),
+    (201, 'North', 7199, 'Mainboard Assy', 'POCO M2 Pro', 15),
+    (301, 'South', 1799, 'Front Cover Display Module', 'Redmi Note5', 30);
+    
