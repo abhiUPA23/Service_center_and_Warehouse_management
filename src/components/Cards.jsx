@@ -45,7 +45,7 @@ const generateCards = () => {
     },
     {
       imageUrl: camera,
-      text: 'Mobile phone camers',
+      text: 'Mobile phone camera',
     },
     {
         imageUrl:circuits,

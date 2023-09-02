@@ -16,7 +16,7 @@ export default function Home() {
       <div className=" bg-slate-200"></div>
 
       <div className="home-cont2">
-        <h1 className="text-3xl font-semibold mb-4 pt-6 px-8 pb-0">Our Products</h1>
+        <h1 className="text-3xl pb-2 pt-6 px-8 pb-0">Our Products</h1>
         <div className="bg-orange-500 h-1 w-1/6 mx-4 mt-0"></div>
         <br />
         <Cards />
