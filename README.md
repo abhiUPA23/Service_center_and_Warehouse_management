@@ -32,7 +32,7 @@ It empowers service center employees to efficiently manage service requests, loc
 
 ### Prerequisites
 
-- [ReactJs,Tailwindcss,Java17]
+- [ReactJs,Tailwindcss,Java17,MYSql Workbench]
 - [SpringBoot (use intellij IDE for smooth working of backend)]
 
   
@@ -41,6 +41,7 @@ It empowers service center employees to efficiently manage service requests, loc
 
   -- **Create** a react app using the command: npx creact-react-app xiaomi_dutchmen (that should install all the necessay node modules)
   -- **Add** the client files except the backend on vs code or any other IDE, open the backend folder in some IDE with Java17 installed, prefferably IntelliJ
+  
     
 
 
@@ -80,6 +81,8 @@ It empowers service center employees to efficiently manage service requests, loc
     stock for the same. later by login to the warehouse you can see and aproove the request.
 
    we have also included the sql querry from which the databse has been created 
+
+ -- If the sql server fails to connect in any case go to backend-> sre-> main-> resources-> applicn.properties, here use the commented code to make a local connection to the Mysql workbench
 
 
 
