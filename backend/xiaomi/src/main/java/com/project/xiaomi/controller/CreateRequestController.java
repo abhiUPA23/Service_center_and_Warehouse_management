@@ -191,6 +191,7 @@ public class CreateRequestController {
         warehouseRequest.setQuantityRequired(null);
         warehouseRequest.setPriority(priority);
         warehouseRequest.setRegion(region);
+        warehouseRequest.setServiceCenterSkUid(serviceCenterSkUid);
 
         log.info("warehouseRequest ={}",warehouseRequest);
         warehouseRequestRepository.save(warehouseRequest);

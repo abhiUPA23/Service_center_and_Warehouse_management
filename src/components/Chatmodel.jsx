@@ -1,5 +1,7 @@
 import { useState } from 'react'
 // import './App.css'
+import './componentscss/Header.css'
+
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
@@ -7,13 +9,14 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 const API_KEY=""
 
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
-  "role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
+  "role": "system", 
+  "content": "Explain things like you are a cutomer service representative at an electornics cervice center, if asked about how time taken for a paticular part to be rapaired answer it as approximately  between 3 to 6 days, if asked about price use genereal avialable price of that part in indian rupee"
 }
 
 function Chatmodel() {
   const [messages, setMessages] = useState([
     {
-      message: "Hello, I'm ChatGPT! Ask me anything!",
+      message: "Hello dear! Ask me anything!",
       sentTime: "just now",
       sender: "ChatGPT"
     }
@@ -32,7 +35,6 @@ function Chatmodel() {
     const newMessages = [...messages, newMessage];
     
     setMessages(newMessages);
-
     // Initial system message to determine ChatGPT functionality
     // How it responds, how it talks, etc.
     setIsTyping(true);
@@ -86,12 +88,12 @@ function Chatmodel() {
 
   return (
     <div className="App">
-      <div style={{ position:"relative", height: "700px", width: "800px",padding:'0px 20px',bordeRadius:'8px'  }}>
+      <div className="rounded-md" style={{ position:"relative", height: "650px", width: "700px",padding:'0px 20px',bordeRadius:'8px'  }}>
         <MainContainer>
           <ChatContainer>       
             <MessageList 
               scrollBehavior="smooth" 
-              typingIndicator={isTyping ? <TypingIndicator content="ChatGPT is typing" /> : null}
+              typingIndicator={isTyping ? <TypingIndicator content="Loading...." /> : null}
             >
               {messages.map((message, i) => {
                 console.log(message)

@@ -212,7 +212,7 @@ const Form = ({ onSubmit, skUid }) => {
 
         setAlert(false);
 
-    }, 2000);
+    }, 6000);
 
     const data = {
       customer_name: customerInfo.name,
@@ -274,8 +274,9 @@ const Form = ({ onSubmit, skUid }) => {
           onChange={handleModelChange}
           className="w-full mb-2 p-2 rounded-md border"
         >
-         
+         <option>select</option>
           {Array.from(new Set(partsData.map((part) => part.modelName))).map((modelName) => (
+
           <option key={modelName} value={modelName}> {modelName} </option>))}
         </select>
 
@@ -330,9 +331,9 @@ const Form = ({ onSubmit, skUid }) => {
     </form>
     {alert && (
         <div
-          className="w-2/5 mx-4  flex justify-center  mt-4 p-1 bg-green-600 border border-green-300 "
+          className=" mx-4  flex justify-center  mt-4 p-1 bg-green-600 border border-green-300 "
         >
-          Request created Successfully!
+          Request created Successfully!   Wait while we upadte it
         </div>
       )}
 
