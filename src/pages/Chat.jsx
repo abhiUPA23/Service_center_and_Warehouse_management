@@ -6,7 +6,7 @@ import Header from "../components/Header";
 export default function Chat(){
     return(
         <>
-        <Header/>
+        <Header istrue='true'/>
                 <div className="p-2 text-orange-700 text-md flex bg-slate-400 justify-center">
                     <h2>Chat to our customer support bot!</h2>
                 </div>
