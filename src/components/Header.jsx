@@ -28,7 +28,7 @@ export default function Header(props) {
                 <ul>
                     <li><a href="/">Home</a></li>
 
-                    {/* <li><Link to='/planning'>Planning</Link></li> */}
+                    <li><Link to='/home'>Planning</Link></li>
                     <li><Link to='/servicecenter'>Service Center</Link></li>
                     <li><Link to='/warehouse'>Warehouse</Link></li>
                     
