@@ -7,6 +7,8 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 
 
 const API_KEY=process.env.REACT_APP_GPT_KEY
+// const API_KEY=""
+//  use your own OpenAI api-key here
 
 
 const systemMessage = { 
