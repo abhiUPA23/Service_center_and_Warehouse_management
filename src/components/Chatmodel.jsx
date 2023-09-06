@@ -1,14 +1,15 @@
 import { useState } from 'react'
 // import './App.css'
 import './componentscss/Header.css'
-
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-// const API_KEY = "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";
-const API_KEY=""
 
-const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
+
+const API_KEY=process.env.REACT_APP_GPT_KEY
+
+
+const systemMessage = { 
   "role": "system", 
   "content": "Explain things like you are a cutomer service representative at an electornics cervice center, if asked about how time taken for a paticular part to be rapaired answer it as approximately  between 3 to 6 days, if asked about price use genereal avialable price of that part in indian rupee"
 }
@@ -19,6 +20,7 @@ function Chatmodel() {
       message: "Hello dear! Ask me anything!",
       sentTime: "just now",
       sender: "ChatGPT"
+      
     }
   ]);
   
@@ -26,7 +28,7 @@ function Chatmodel() {
   // const  additionalmessage='Generate all related keywords from the given propts to match to our e commerce database';
   const handleSend = async (message) => {
     const newMessage = {
-      
+
       message: message,
       direction: 'outgoing',
       sender: "user"
@@ -38,6 +40,7 @@ function Chatmodel() {
     // Initial system message to determine ChatGPT functionality
     // How it responds, how it talks, etc.
     setIsTyping(true);
+    console.log(process.env); 
     await processMessageToChatGPT(newMessages);
   };
 
@@ -75,7 +78,9 @@ function Chatmodel() {
       },
       body: JSON.stringify(apiRequestBody)
     }).then((data) => {
+      
       return data.json();
+
     }).then((data) => {
       console.log(data);
       setMessages([...chatMessages, {
@@ -97,6 +102,7 @@ function Chatmodel() {
             >
               {messages.map((message, i) => {
                 console.log(message)
+
                 return <Message key={i} model={message} />
               })}
             </MessageList>

@@ -21,9 +21,9 @@ export default function Services({response}) {
     setPendingrequests([...Pendingrequests, requestData]);
   };
   
-  const handleLogOut=()=>{
-      window.location.href='./servicecenter';
-  }
+  // const handleLogOut=()=>{
+  //     window.location.href='./servicecenter';
+  // }
 
   return (
     <>
